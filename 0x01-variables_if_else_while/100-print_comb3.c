@@ -16,7 +16,7 @@ if (p != d)
 {
 putchar(d);
 putchar(p);
-if ((d == '8')&&(p == '8'))
+if (d == '8') && p == '8')
 continue;
 putchar(',');
 putchar(' ');
