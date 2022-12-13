@@ -1,5 +1,5 @@
+#include <stdio.h>
 #include "_putchar.h"
-#include <main.h>
 /**
  * main - print _putchar on new line
  * Return: Always 0 (Success)
@@ -12,6 +12,8 @@ int main(void)
 	{
 		_putchar(p[i]);
 	}
-	_putchar('\n');
-	return (0);
+		_putchar('\n');
+		return (0);
+
 }
+
