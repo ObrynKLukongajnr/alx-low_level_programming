@@ -1,4 +1,4 @@
-#include "main.h"
+#include <main.h>
 /**
  * print_alphabet - ptint the alphabet in lowercase.
  * Return: void.
