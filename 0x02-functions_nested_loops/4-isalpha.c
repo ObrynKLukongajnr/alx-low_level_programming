@@ -1,14 +1,23 @@
 #include "main.h"
 /**
- *_isalpha - checks for char alphabet
- *@c: the char to be checked
+ *_isalpha - Check Main
+ *@c: An input character
  *
- *Return: 1 if char is letter lower or upper, 0 otherwise
+ *Return: 1 if char is letter lower or upper, 0 otherwise.
  */
+
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-		return (1);
-	else
-		return (0);
+char lower, upper;
+int isletter = 0;
+
+for (lower = 'a'; lower <= 'z'; lower++)
+{
+for (upper = 'A'; upper <= 'Z'; upper++)
+{
+if (c == lower || c == upper)
+isletter = 1;
+}
+}
+return (isletter);
 }
