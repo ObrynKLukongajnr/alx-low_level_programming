@@ -7,7 +7,7 @@
  * Return; print
  */
 
-void puts(char *str)
+void puts2(char *str)
 {
 	int len = 0, i = 0;
 
