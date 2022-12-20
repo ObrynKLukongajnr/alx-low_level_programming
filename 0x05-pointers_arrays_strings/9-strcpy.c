@@ -3,16 +3,13 @@
  * char *_strcpy - a function that coppies the string pointed by src
  * @dest: copy to
  * @src: copy from
- * Return: string
+ * Return: pointer to dest
  */
-
 char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
+	char *aux = dest;
 
-	for (; src[i] != '\0'; i++)
-	{
-		dest[i] = src[i];
-	}
-	return (dest);
+	while (*src)
+		*dest++ = *src++;
+	return (aux);
 }
