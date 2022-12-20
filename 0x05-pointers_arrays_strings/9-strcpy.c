@@ -1,15 +1,24 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * char *_strcpy - a function that coppies the string pointed by src
- * @dest: copy to
- * @src: copy from
- * Return: pointer to dest
+ *_strcpy - update value.
+ *@dest: value to be evaluated.
+ *@src: value to be evaluated.
+ *Return: nothing.
  */
 char *_strcpy(char *dest, char *src)
 {
-	char *aux = dest;
+	int l = 0;
+	int x = 0;
 
-	while (*src)
-		*dest++ = *src++;
-	return (aux);
+	while (*(src + l) != '\0')
+	{
+		l++;
+	}
+	for ( ; x < l; x++)
+	{
+		dest[x] = src[x];
+	}
+	dest[l] = '\0';
+	return (dest);
 }
