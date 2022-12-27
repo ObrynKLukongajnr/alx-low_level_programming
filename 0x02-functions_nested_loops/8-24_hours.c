@@ -2,10 +2,11 @@
 
 /*
  * jack_bauer - Check Main
- * Description: function prints every minute in one day
+ * Description: function that prints every minute of the day of Jack Bauer,
+ * starting from 00:00 to 23:59.
+ *
  * Return: Nothing
  */
-
 void jack_bauer(void)
 {
 	int H, M;
