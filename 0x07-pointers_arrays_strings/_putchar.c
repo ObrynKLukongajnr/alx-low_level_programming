@@ -17,4 +17,3 @@ int _putchar(char c)
 >>>>>>> 9ad0a5ea187bde42fbfc58c87af083fabfb962df
 	return (write(1, &c, 1));
 }
-}
