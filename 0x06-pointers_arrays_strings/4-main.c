@@ -20,6 +20,9 @@ while (i < n)
 		printf(", ");
 	}
 	printf("%d", a[i]);
+	i++;
+}
+printf("\n");
 }
 
 /**
