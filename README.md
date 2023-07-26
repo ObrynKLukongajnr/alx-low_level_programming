@@ -1,2 +1,1 @@
-Low_level-Programming
-More pointers, arrays and strings
+C, low_level_programming
